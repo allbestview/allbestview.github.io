@@ -105,7 +105,7 @@
   <style amp-boilerplate>body{-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;animation: -amp-start 8s steps(1, end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility: hidden}to{visibility: visible}}@-moz-keyframes -amp-start{from{visibility: hidden}to{visibility: visible}}@-ms-keyframes -amp-start{from{visibility: hidden}to{visibility: visible}}@-o-keyframes -amp-start{from{visibility: hidden}to{visibility: visible}}@keyframes -amp-start{from{visibility: hidden}to{visibility: visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none}</style></noscript>
 </head>
 <body>
-<amp-install-serviceworker src="/sw.js" data-iframe-src="/offline/" layout="nodisplay"></amp-install-serviceworker>
+<amp-install-serviceworker src="/serviceworker.js" data-iframe-src="/offline.html" layout="nodisplay"></amp-install-serviceworker>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNJR3QW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -474,9 +474,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     items: [
       {key: "day trip", label: "Day Trip (Quick Outing)"},
 	  {key: "weekend", label: "Weekend (2-3 Days)"},
-      {key: "3–5 hari", label: "3–5 Hari (Short Getaway)"},
-	  {key: "1 minggu", label: "1 Minggu (Standard Trip)"},
-	  {key: "2 minggu+", label: "2 Minggu+ (Extended Travel)"},
+      {key: "3–5 days", label: "3–5 Days (Short Getaway)"},
+	  {key: "1 week", label: "1 Week (Standard Trip)"},
+	  {key: "2 weeks & 3 weeks", label: "2 Weeks & 3 Weeks (Extended Travel)"},
       {key: "long-term travel", label: "Long-term Travel (Over 1 Month)"}
     ]
   },
